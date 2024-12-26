@@ -1,0 +1,16 @@
+name: Build and Deploy to GitHub Actions
+on: [push]
+jobs:
+  build_vue:
+    runs-on: ubuntu-latest
+    name: Build Vue
+    steps:
+      - uses: actions/checkout@v2
+      - id: Build-Vue
+        uses: eoussama/vue-pages-action@0.0.2
+        with:
+          username: 'AjayACST'
+          reponame: 'website'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          gitemail: 'ci-git@quirky.codes'
+          useyarn: true
