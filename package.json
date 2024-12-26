@@ -17,7 +17,8 @@
     "flowbite": "^2.5.2",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",

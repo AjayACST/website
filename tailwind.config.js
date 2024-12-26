@@ -6,6 +6,9 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
+    colors: {
+      primary: '#001f3f'
+    },
     extend: {
       fontFamily: {
         robotoslab: ['Roboto Slab', 'serif']

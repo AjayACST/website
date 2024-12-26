@@ -11,7 +11,7 @@ interface Dot {
 
 const dots = reactive<Dot[]>([])
 
-const numberOfDots = 100;
+const numberOfDots = 50;
 const dotSize = 10;
 const maxSpeed = 0.5;
 
